@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="2048.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  <!--jquery library-->
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>                      <!--animation-->
+</head>
+
+<body>
+   <h1> Let's Play 2048</h1>
+  <div class="buttons">
+  <button id = play>How To Play</button>
+  <button id="reset">New Game</button>
+  </div>
+  <div class = "instruction">
+   <ul>
+    <li> Press your arrow keys to move the tiles. </li>
+    <li> Tiles with the same number merge into one when they touch.</li>
+    <li> Add them up to reach 2048! </li>
+   </ul> 
+  </div>
+   <div class="scorecontainer">Score:<span id="score">0</span>
+   </div>
+  <div class="grid"></div>
+    <!--<div>""</div>-->
+  <div id="result"></div>
+  
+  <script src="2048.js"></script>
+</body>
+</html>
