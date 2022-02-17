@@ -1,0 +1,118 @@
+body{
+    background-color:beige;
+}
+h1{
+    color: rgb(94, 5, 5);
+    font-weight: 900;
+    font-size: 55px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+   
+}
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+#play{
+    
+    background-color: rgb(121, 7, 96);
+    height: 40px;
+    width: 120px;
+    color: lightcyan;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px grey;
+    
+}
+
+#play:hover{
+    background-color:  rgb(178, 15, 228);
+}
+
+#reset{
+    background-color: rgb(121, 7, 96);
+    height: 40px;
+    width: 120px;
+    color: lightcyan;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px grey;   
+    
+}
+
+#reset:hover{
+    background-color:rgb(178, 15, 228);
+}
+
+.instruction{
+    color: rgb(6, 65, 16);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    display: flex;
+    justify-content:center;
+       
+}
+
+
+.scorecontainer{
+  color: indigo;
+  font-size: 40px;
+  text-align:center;
+  font-weight: 600;
+  margin: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.grid{
+    background-color:rgb(8, 64, 109);
+    margin :auto;
+    padding:auto;
+    width: 300px;
+    height: 300px; 
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.grid div{
+    display: flex;
+    padding: auto;
+    margin: auto;
+    justify-content: space-evenly;
+    background: #cceeff;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 65px;
+    height: 65px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(2, 31, 12);
+
+}
+.grid div:hover{
+
+    cursor: pointer;
+    background-color: gray;
+}
+
+#result{
+
+    color: rgb(212, 40, 40);
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding :20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
